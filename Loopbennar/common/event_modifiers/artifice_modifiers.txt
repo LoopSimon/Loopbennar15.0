@@ -322,3 +322,93 @@ artifice_iochand_merc_2 = {
 artifice_iochand_merc_3 = {
 	mercenary_discipline =  0.05
 }
+
+artifice_logging_1 = {
+	local_tax_modifier = 1
+}
+
+artifice_logging_2 = {
+	local_tax_modifier = 1
+}
+
+artifice_logging_3 = {
+	local_missionary_strength = 2
+}
+
+artifice_logging_4 = {
+	local_tax_modifier = 1
+}
+
+artifice_logging_5_1 = {
+	trade_goods_size_modifier = -0.06
+	local_manpower_modifier = 0.06
+}
+
+artifice_logging_5_2 = {
+	trade_goods_size_modifier = -0.12
+	local_manpower_modifier = 0.12
+}
+
+artifice_logging_5_3 = {
+	trade_goods_size_modifier = -0.18
+	local_manpower_modifier = 0.18
+}
+
+artifice_logging_5_4 = {
+	trade_goods_size_modifier = -0.24
+	local_manpower_modifier = 0.24
+}
+
+artifice_logging_5_5 = {
+	trade_goods_size_modifier = -0.3
+	local_manpower_modifier = 0.3
+}
+
+artifice_logging_6_1 = {
+	local_development_cost = -0.1
+}
+
+artifice_logging_6_2 = {
+	local_development_cost = -0.2
+}
+
+artifice_logging_6_3 = {
+	local_development_cost = -0.3
+}
+
+artifice_logging_6_4 = {
+	local_development_cost = -0.4
+}
+
+artifice_logging_6_5 = {
+	local_development_cost = -0.5
+}
+
+artifice_logging_7 = {
+	local_tax_modifier = 1
+}
+
+artifice_logging_8 = {
+	local_tax_modifier = 1
+}
+
+artifice_logging_9_1 = {
+	local_defensiveness = 0.15
+}
+
+artifice_logging_9_2 = {
+	local_defensiveness = 0.20
+}
+
+artifice_logging_9_3 = {
+	local_defensiveness = 0.25
+}
+
+artifice_logging_9_4 = {
+	local_defensiveness = 0.30
+}
+
+artifice_logging_9_5 = {
+	local_defensiveness = 0.35
+	local_defender_dice_roll_bonus = 1
+}

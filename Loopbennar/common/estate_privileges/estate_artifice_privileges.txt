@@ -14040,3 +14040,1151 @@ artifice_invention_advanced_silk_production = {
 		}
 	}
 }
+
+#Bayvic/Bayvek
+
+artifice_invention_bayvic_logging_1 = {
+	icon = Artf_Uniq1
+	max_absolutism = 0
+	loyalty = 0.00
+	influence = 0 #artificer privileges must never affect influence due to the fact influence affects points
+	is_valid = {
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_1
+		OR = {
+			ai = yes
+			has_estate_privilege = artifice_invention_bayvic_logging_1
+		}
+	}
+	can_select = {
+        ai = yes
+		artifice_has_points_10 = yes
+	}
+	can_revoke = {
+		hidden_trigger = {
+			ai = yes
+		}
+	}
+	on_granted = {
+		hidden_effect = {
+			artifice_inventions_currently_used_increase = yes
+		}
+		artifice_granted_10 = yes
+		custom_tooltip = artifice_invention_bayvic_logging_1_tt
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = logging_camp_1
+					has_province_modifier = logging_camp_2
+					has_province_modifier = logging_camp_3
+					has_province_modifier = logging_camp_4
+					has_province_modifier = logging_camp_5
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_1
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = artifice_logging_1
+			}
+			remove_province_modifier = artifice_logging_1
+		}
+	}
+	on_revoked = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_10 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_1
+			}
+			remove_province_modifier = artifice_logging_1
+		}
+	}
+	on_invalid = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_10 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_1
+			}
+			remove_province_modifier = artifice_logging_1
+		}
+	}
+	penalties = {
+		#foo
+	}
+	benefits = {
+		artificers_privilege_slots = 1
+		tec_mechanists_influence = 0.1
+	}
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0
+			over_artifice_capacity = yes
+		}
+	}
+}
+
+artifice_invention_bayvic_logging_2 = {
+	icon = Artf_Uniq1
+	max_absolutism = 0
+	loyalty = 0.00
+	influence = 0 #artificer privileges must never affect influence due to the fact influence affects points
+	is_valid = {
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_2
+		OR = {
+			ai = yes
+			has_estate_privilege = artifice_invention_bayvic_logging_2
+		}
+	}
+	can_select = {
+        ai = yes
+		artifice_has_points_10 = yes
+	}
+	can_revoke = {
+		hidden_trigger = {
+			ai = yes
+		}
+	}
+	on_granted = {
+		hidden_effect = {
+			artifice_inventions_currently_used_increase = yes
+		}
+		artifice_granted_10 = yes
+		custom_tooltip = artifice_invention_bayvic_logging_2_tt
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = logging_camp_1
+					has_province_modifier = logging_camp_2
+					has_province_modifier = logging_camp_3
+					has_province_modifier = logging_camp_4
+					has_province_modifier = logging_camp_5
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_2
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = artifice_logging_2
+			}
+			remove_province_modifier = artifice_logging_2
+		}
+	}
+	on_revoked = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_10 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_2
+			}
+			remove_province_modifier = artifice_logging_2
+		}
+	}
+	on_invalid = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_10 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_2
+			}
+			remove_province_modifier = artifice_logging_2
+		}
+	}
+	penalties = {
+		#foo
+	}
+	benefits = {
+		artificers_privilege_slots = 1
+		tec_mechanists_influence = 0.1
+	}
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0
+			over_artifice_capacity = yes
+		}
+	}
+}
+
+artifice_invention_bayvic_logging_3 = {
+	icon = Artf_Uniq1
+	max_absolutism = 0
+	loyalty = 0.00
+	influence = 0 #artificer privileges must never affect influence due to the fact influence affects points
+	is_valid = {
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_3
+		OR = {
+			ai = yes
+			has_estate_privilege = artifice_invention_bayvic_logging_3
+		}
+	}
+	can_select = {
+        ai = yes
+		artifice_has_points_10 = yes
+	}
+	can_revoke = {
+		hidden_trigger = {
+			ai = yes
+		}
+	}
+	on_granted = {
+		hidden_effect = {
+			artifice_inventions_currently_used_increase = yes
+		}
+		artifice_granted_10 = yes
+		custom_tooltip = artifice_invention_bayvic_logging_3_tt
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = logging_camp_1
+					has_province_modifier = logging_camp_2
+					has_province_modifier = logging_camp_3
+					has_province_modifier = logging_camp_4
+					has_province_modifier = logging_camp_5
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_3
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = artifice_logging_3
+			}
+			remove_province_modifier = artifice_logging_3
+		}
+	}
+	on_revoked = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_10 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_3
+			}
+			remove_province_modifier = artifice_logging_3
+		}
+	}
+	on_invalid = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_10 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_3
+			}
+			remove_province_modifier = artifice_logging_3
+		}
+	}
+	penalties = {
+		#foo
+	}
+	benefits = {
+		artificers_privilege_slots = 1
+		tec_mechanists_influence = 0.1
+	}
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0
+			over_artifice_capacity = yes
+		}
+	}
+}
+
+artifice_invention_bayvic_logging_4 = {
+	icon = Artf_Uniq2
+	max_absolutism = 0
+	loyalty = 0.00
+	influence = 0 #artificer privileges must never affect influence due to the fact influence affects points
+	is_valid = {
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_4
+		OR = {
+			ai = yes
+			has_estate_privilege = artifice_invention_bayvic_logging_4
+		}
+	}
+	can_select = {
+        ai = yes
+		artifice_has_points_20 = yes
+	}
+	can_revoke = {
+		hidden_trigger = {
+			ai = yes
+		}
+	}
+	on_granted = {
+		hidden_effect = {
+			artifice_inventions_currently_used_increase = yes
+		}
+		artifice_granted_20 = yes
+		custom_tooltip = artifice_invention_bayvic_logging_4_tt
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = logging_camp_1
+					has_province_modifier = logging_camp_2
+					has_province_modifier = logging_camp_3
+					has_province_modifier = logging_camp_4
+					has_province_modifier = logging_camp_5
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_4
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = artifice_logging_4
+			}
+			remove_province_modifier = artifice_logging_4
+		}
+	}
+	on_revoked = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_20 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_4
+			}
+			remove_province_modifier = artifice_logging_4
+		}
+	}
+	on_invalid = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_20 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_4
+			}
+			remove_province_modifier = artifice_logging_4
+		}
+	}
+	penalties = {
+		#foo
+	}
+	benefits = {
+		artificers_privilege_slots = 1
+		tec_mechanists_influence = 0.1
+	}
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0
+			over_artifice_capacity = yes
+		}
+	}
+}
+
+artifice_invention_bayvic_logging_5 = {
+	icon = Artf_Uniq2
+	max_absolutism = 0
+	loyalty = 0.00
+	influence = 0 #artificer privileges must never affect influence due to the fact influence affects points
+	is_valid = {
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_5
+		OR = {
+			ai = yes
+			has_estate_privilege = artifice_invention_bayvic_logging_5
+		}
+	}
+	can_select = {
+        ai = yes
+		artifice_has_points_20 = yes
+	}
+	can_revoke = {
+		hidden_trigger = {
+			ai = yes
+		}
+	}
+	on_granted = {
+		hidden_effect = {
+			artifice_inventions_currently_used_increase = yes
+		}
+		artifice_granted_20 = yes
+		custom_tooltip = artifice_invention_bayvic_logging_5_tt
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				has_province_modifier = logging_camp_1
+			}
+			add_province_modifier = {
+				name = artifice_logging_5_1
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				has_province_modifier = logging_camp_2
+			}
+			add_province_modifier = {
+				name = artifice_logging_5_2
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				has_province_modifier = logging_camp_3
+			}
+			add_province_modifier = {
+				name = artifice_logging_5_3
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				has_province_modifier = logging_camp_4
+			}
+			add_province_modifier = {
+				name = artifice_logging_5_4
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				has_province_modifier = logging_camp_5
+			}
+			add_province_modifier = {
+				name = artifice_logging_5_5
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				OR = {
+					has_province_modifier = artifice_logging_5_1
+					has_province_modifier = artifice_logging_5_2
+					has_province_modifier = artifice_logging_5_3
+					has_province_modifier = artifice_logging_5_4
+					has_province_modifier = artifice_logging_5_5
+				}
+			}
+			remove_province_modifier = artifice_logging_5_1
+			remove_province_modifier = artifice_logging_5_2
+			remove_province_modifier = artifice_logging_5_3
+			remove_province_modifier = artifice_logging_5_4
+			remove_province_modifier = artifice_logging_5_5
+		}
+	}
+	on_revoked = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_20 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = artifice_logging_5_1
+					has_province_modifier = artifice_logging_5_2
+					has_province_modifier = artifice_logging_5_3
+					has_province_modifier = artifice_logging_5_4
+					has_province_modifier = artifice_logging_5_5
+				}
+			}
+			remove_province_modifier = artifice_logging_5_1
+			remove_province_modifier = artifice_logging_5_2
+			remove_province_modifier = artifice_logging_5_3
+			remove_province_modifier = artifice_logging_5_4
+			remove_province_modifier = artifice_logging_5_5
+		}
+	}
+	on_invalid = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_20 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = artifice_logging_5_1
+					has_province_modifier = artifice_logging_5_2
+					has_province_modifier = artifice_logging_5_3
+					has_province_modifier = artifice_logging_5_4
+					has_province_modifier = artifice_logging_5_5
+				}
+			}
+			remove_province_modifier = artifice_logging_5_1
+			remove_province_modifier = artifice_logging_5_2
+			remove_province_modifier = artifice_logging_5_3
+			remove_province_modifier = artifice_logging_5_4
+			remove_province_modifier = artifice_logging_5_5
+		}
+	}
+	penalties = {
+		#foo
+	}
+	benefits = {
+		artificers_privilege_slots = 1
+		tec_mechanists_influence = 0.1
+	}
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0
+			over_artifice_capacity = yes
+		}
+	}
+}
+
+artifice_invention_bayvic_logging_6 = {
+	icon = Artf_Uniq2
+	max_absolutism = 0
+	loyalty = 0.00
+	influence = 0 #artificer privileges must never affect influence due to the fact influence affects points
+	is_valid = {
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_6
+		OR = {
+			ai = yes
+			has_estate_privilege = artifice_invention_bayvic_logging_6
+		}
+	}
+	can_select = {
+        ai = yes
+		artifice_has_points_20 = yes
+	}
+	can_revoke = {
+		hidden_trigger = {
+			ai = yes
+		}
+	}
+	on_granted = {
+		hidden_effect = {
+			artifice_inventions_currently_used_increase = yes
+		}
+		artifice_granted_20 = yes
+		custom_tooltip = artifice_invention_bayvic_logging_6_tt
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				has_province_modifier = logging_camp_1
+				has_climate = arctic
+			}
+			add_province_modifier = {
+				name = artifice_logging_6_1
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		if = {
+			limit = {
+				has_province_modifier = logging_camp_2
+				has_climate = arctic
+			}
+			add_province_modifier = {
+				name = artifice_logging_6_2
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		if = {
+			limit = {
+				has_province_modifier = logging_camp_3
+				has_climate = arctic
+			}
+			add_province_modifier = {
+				name = artifice_logging_6_3
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		if = {
+			limit = {
+				has_province_modifier = logging_camp_4
+				has_climate = arctic
+			}
+			add_province_modifier = {
+				name = artifice_logging_6_4
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		if = {
+			limit = {
+				has_province_modifier = logging_camp_5
+				has_climate = arctic
+			}
+			add_province_modifier = {
+				name = artifice_logging_6_5
+				duration = -1
+				hidden = yes
+			}
+		}
+		
+		else_if = {
+			limit = {
+				OR = {
+					has_province_modifier = artifice_logging_6_1
+					has_province_modifier = artifice_logging_6_2
+					has_province_modifier = artifice_logging_6_3
+					has_province_modifier = artifice_logging_6_4
+					has_province_modifier = artifice_logging_6_5
+				}
+			}
+			remove_province_modifier = artifice_logging_6_1
+			remove_province_modifier = artifice_logging_6_2
+			remove_province_modifier = artifice_logging_6_3
+			remove_province_modifier = artifice_logging_6_4
+			remove_province_modifier = artifice_logging_6_5
+		}
+	}
+	on_revoked = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_20 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = artifice_logging_6_1
+					has_province_modifier = artifice_logging_6_2
+					has_province_modifier = artifice_logging_6_3
+					has_province_modifier = artifice_logging_6_4
+					has_province_modifier = artifice_logging_6_5
+				}
+			}
+			remove_province_modifier = artifice_logging_6_1
+			remove_province_modifier = artifice_logging_6_2
+			remove_province_modifier = artifice_logging_6_3
+			remove_province_modifier = artifice_logging_6_4
+			remove_province_modifier = artifice_logging_6_5
+		}
+	}
+	on_invalid = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_20 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = artifice_logging_6_1
+					has_province_modifier = artifice_logging_6_2
+					has_province_modifier = artifice_logging_6_3
+					has_province_modifier = artifice_logging_6_4
+					has_province_modifier = artifice_logging_6_5
+				}
+			}
+			remove_province_modifier = artifice_logging_6_1
+			remove_province_modifier = artifice_logging_6_2
+			remove_province_modifier = artifice_logging_6_3
+			remove_province_modifier = artifice_logging_6_4
+			remove_province_modifier = artifice_logging_6_5
+		}
+	}
+	penalties = {
+		#foo
+	}
+	benefits = {
+		artificers_privilege_slots = 1
+		tec_mechanists_influence = 0.1
+	}
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0
+			over_artifice_capacity = yes
+		}
+	}
+}
+
+artifice_invention_bayvic_logging_7 = {
+	icon = Artf_Uniq3
+	max_absolutism = 0
+	loyalty = 0.00
+	influence = 0 #artificer privileges must never affect influence due to the fact influence affects points
+	is_valid = {
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_7
+		OR = {
+			ai = yes
+			has_estate_privilege = artifice_invention_bayvic_logging_7
+		}
+	}
+	can_select = {
+        ai = yes
+		artifice_has_points_30 = yes
+	}
+	can_revoke = {
+		hidden_trigger = {
+			ai = yes
+		}
+	}
+	on_granted = {
+		hidden_effect = {
+			artifice_inventions_currently_used_increase = yes
+		}
+		artifice_granted_30 = yes
+		custom_tooltip = artifice_invention_bayvic_logging_7_tt
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = logging_camp_1
+					has_province_modifier = logging_camp_2
+					has_province_modifier = logging_camp_3
+					has_province_modifier = logging_camp_4
+					has_province_modifier = logging_camp_5
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_7
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = artifice_logging_7
+			}
+			remove_province_modifier = artifice_logging_7
+		}
+	}
+	on_revoked = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_30 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_7
+			}
+			remove_province_modifier = artifice_logging_7
+		}
+	}
+	on_invalid = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_30 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_7
+			}
+			remove_province_modifier = artifice_logging_7
+		}
+	}
+	penalties = {
+		#foo
+	}
+	benefits = {
+		artificers_privilege_slots = 1
+		tec_mechanists_influence = 0.1
+	}
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0
+			over_artifice_capacity = yes
+		}
+	}
+}
+
+artifice_invention_bayvic_logging_8 = {
+	icon = Artf_Uniq3
+	max_absolutism = 0
+	loyalty = 0.00
+	influence = 0 #artificer privileges must never affect influence due to the fact influence affects points
+	is_valid = {
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_8
+		OR = {
+			ai = yes
+			has_estate_privilege = artifice_invention_bayvic_logging_8
+		}
+	}
+	can_select = {
+        ai = yes
+		artifice_has_points_30 = yes
+	}
+	can_revoke = {
+		hidden_trigger = {
+			ai = yes
+		}
+	}
+	on_granted = {
+		hidden_effect = {
+			artifice_inventions_currently_used_increase = yes
+		}
+		artifice_granted_30 = yes
+		custom_tooltip = artifice_invention_bayvic_logging_8_tt
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = logging_camp_1
+					has_province_modifier = logging_camp_2
+					has_province_modifier = logging_camp_3
+					has_province_modifier = logging_camp_4
+					has_province_modifier = logging_camp_5
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_8
+				duration = -1
+				hidden = yes
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = artifice_logging_8
+			}
+			remove_province_modifier = artifice_logging_8
+		}
+	}
+	on_revoked = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_30 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_8
+			}
+			remove_province_modifier = artifice_logging_8
+		}
+	}
+	on_invalid = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_30 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = artifice_logging_8
+			}
+			remove_province_modifier = artifice_logging_8
+		}
+	}
+	penalties = {
+		#foo
+	}
+	benefits = {
+		artificers_privilege_slots = 1
+		tec_mechanists_influence = 0.1
+	}
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0
+			over_artifice_capacity = yes
+		}
+	}
+}
+
+artifice_invention_bayvic_logging_9 = {
+	icon = Artf_Uniq3
+	max_absolutism = 0
+	loyalty = 0.00
+	influence = 0 #artificer privileges must never affect influence due to the fact influence affects points
+	is_valid = {
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_9
+		OR = {
+			ai = yes
+			has_estate_privilege = artifice_invention_bayvic_logging_9
+		}
+	}
+	can_select = {
+        ai = yes
+		artifice_has_points_30 = yes
+	}
+	can_revoke = {
+		hidden_trigger = {
+			ai = yes
+		}
+	}
+	on_granted = {
+		hidden_effect = {
+			artifice_inventions_currently_used_increase = yes
+		}
+		artifice_granted_30 = yes
+		custom_tooltip = artifice_invention_bayvic_logging_9_tt
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				AND = {
+					has_province_modifier = logging_camp_1
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+						has_building = fort_magic
+					}
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_9_1
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				AND = {
+					has_province_modifier = logging_camp_2
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+						has_building = fort_magic
+					}
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_9_2
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				AND = {
+					has_province_modifier = logging_camp_3
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+						has_building = fort_magic
+					}
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_9_3
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				AND = {
+					has_province_modifier = logging_camp_4
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+						has_building = fort_magic
+					}
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_9_4
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				AND = {
+					has_province_modifier = logging_camp_5
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+						has_building = fort_magic
+					}
+				}
+			}
+			add_province_modifier = {
+				name = artifice_logging_9_5
+				duration = -1
+				hidden = yes
+			}
+		}
+
+		else_if = {
+			limit = {
+				OR = {
+					has_province_modifier = artifice_logging_9_1
+					has_province_modifier = artifice_logging_9_2
+					has_province_modifier = artifice_logging_9_3
+					has_province_modifier = artifice_logging_9_4
+					has_province_modifier = artifice_logging_9_5
+				}
+			}
+			remove_province_modifier = artifice_logging_9_1
+			remove_province_modifier = artifice_logging_9_2
+			remove_province_modifier = artifice_logging_9_3
+			remove_province_modifier = artifice_logging_9_4
+			remove_province_modifier = artifice_logging_9_5
+		}
+	}
+	on_revoked = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_30 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				OR = {
+					has_province_modifier = artifice_logging_9_1
+					has_province_modifier = artifice_logging_9_2
+					has_province_modifier = artifice_logging_9_3
+					has_province_modifier = artifice_logging_9_4
+					has_province_modifier = artifice_logging_9_5
+				}
+			}
+			remove_province_modifier = artifice_logging_9_1
+			remove_province_modifier = artifice_logging_9_2
+			remove_province_modifier = artifice_logging_9_3
+			remove_province_modifier = artifice_logging_9_4
+			remove_province_modifier = artifice_logging_9_5
+		}
+	}
+	on_invalid = {
+		hidden_effect = {
+			artifice_inventions_currently_used_decrease = yes
+		}
+		artifice_remove_30 = yes
+		#update_artifice_points = yes #is included in the above effect
+	}
+	on_invalid_province = {
+		limit = {
+			OR = {
+				has_province_modifier = artifice_logging_9_1
+				has_province_modifier = artifice_logging_9_2
+				has_province_modifier = artifice_logging_9_3
+				has_province_modifier = artifice_logging_9_4
+				has_province_modifier = artifice_logging_9_5
+			}
+		}
+		remove_province_modifier = artifice_logging_9_1
+		remove_province_modifier = artifice_logging_9_2
+		remove_province_modifier = artifice_logging_9_3
+		remove_province_modifier = artifice_logging_9_4
+		remove_province_modifier = artifice_logging_9_5
+	}
+	penalties = {
+		#foo
+	}
+	benefits = {
+		artificers_privilege_slots = 1
+		tec_mechanists_influence = 0.1
+	}
+	ai_will_do = {
+		factor = 50
+		modifier = {
+			factor = 0
+			over_artifice_capacity = yes
+		}
+	}
+}

@@ -5451,6 +5451,9 @@ disable_all_artifice_inventions = {
 		remove_estate_privilege = artifice_invention_market_mender
 		remove_estate_privilege = artifice_invention_plane_of_water_teleporter
 		remove_estate_privilege = artifice_invention_self_cleaning_parchment
+		remove_estate_privilege = artifice_invention_bayvic_logging_1
+		remove_estate_privilege = artifice_invention_bayvic_logging_2
+		remove_estate_privilege = artifice_invention_bayvic_logging_3
 		# tier 1 society
 		remove_estate_privilege = artifice_invention_viewcatcher
 		remove_estate_privilege = artifice_invention_sending_stones
@@ -5489,6 +5492,9 @@ disable_all_artifice_inventions = {
 		remove_estate_privilege = artifice_invention_artificial_egg_surrogates
 		remove_estate_privilege = artifice_invention_subterrenes
 		remove_estate_privilege = artifice_invention_advanced_silk_production
+		remove_estate_privilege = artifice_invention_bayvic_logging_4
+		remove_estate_privilege = artifice_invention_bayvic_logging_5
+		remove_estate_privilege = artifice_invention_bayvic_logging_6
 		# tier 2 society
 		remove_estate_privilege = artifice_invention_remedial_tinctures
 		remove_estate_privilege = artifice_invention_arithmatons
@@ -5532,6 +5538,9 @@ disable_all_artifice_inventions = {
 		remove_estate_privilege = artifice_invention_artifice_powered_magnate_factories
 		remove_estate_privilege = artifice_invention_prefabricated_city_constructors
 		remove_estate_privilege = artifice_invention_t_wave_transceivers
+		remove_estate_privilege = artifice_invention_bayvic_logging_7
+		remove_estate_privilege = artifice_invention_bayvic_logging_8
+		remove_estate_privilege = artifice_invention_bayvic_logging_9
 		# tier 3 military
 		remove_estate_privilege = artifice_invention_black_damestear_bullets
 		remove_estate_privilege = artifice_invention_artillery_autoloader

@@ -1,0 +1,15 @@
+﻿l_english:
+
+#Inventions
+
+artifice_invention_bayvic_logging_3:0 "Makeshift Chapel"
+artifice_invention_bayvic_logging_3_tt:0 "All Provinces with any §YLogging Camp§! get:\n   §G+2% Missionary Strength§!"
+
+artifice_invention_bayvic_logging_5:0 "Arctic Greenhouse Farming"
+artifice_invention_bayvic_logging_5_tt:0 "All Provinces with a §YLogging Camp§! get:\n   §YT1§!: §G+6% Local Manpower Modifier§! and\n          §R-6% Goods Produced Modifier§!\n   §YT2§!: §G+12% Local Manpower Modifier§! and\n          §R-12% Goods Produced Modifier§!\n   §YT3§!: §G+18% Local Manpower Modifier§! and\n          §R-18% Goods Produced Modifier§!\n   §YT4§!: §G+24% Local Manpower Modifier§! and\n          §R-24% Goods Produced Modifier§!\n   §YT5§!: §G+30% Local Manpower Modifier§! and\n          §R-30% Goods Produced Modifier§!" 
+
+artifice_invention_bayvic_logging_6:0 "Arctic Greenhouse Farming"
+artifice_invention_bayvic_logging_6_tt:0 "All Provinces with a §YLogging Camp§! and an §YArctic§! climate get:\n   §YT1§!: §G-10% Development Cost§!\n   §YT2§!: §G-20% Development Cost§!\n   §YT3§!: §G-30% Development Cost§!\n   §YT4§!: §G-40% Development Cost§!\n   §YT5§!: §G-50% Development Cost§!" 
+
+artifice_invention_bayvic_logging_9:0 "The Goblin Hedgehog"
+artifice_invention_bayvic_logging_9_tt:0 "All Provinces with a §YLogging Camp§! and any §YFort§! get:\n   §YT1§!: §G+15% Local Defensiveness§!\n   §YT2§!: §G+20% Local Defensiveness§!\n   §YT3§!: §G+25% Local Defensiveness§!\n   §YT4§!: §G+30% Local Defensiveness§!\n   §YT5§!: §G+35% Local Defensiveness§! and\n         §G+1 Local Defender Dice Roll§!" 

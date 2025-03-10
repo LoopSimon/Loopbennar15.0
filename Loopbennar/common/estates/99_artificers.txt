@@ -577,6 +577,17 @@ estate_artificers = {
 		artifice_invention_iochand_merc_3 #30
 		artifice_invention_advanced_silk_production #20
 
+		#Bayvic/Bayvek
+		artifice_invention_bayvic_logging_1
+		artifice_invention_bayvic_logging_2
+		artifice_invention_bayvic_logging_3
+		artifice_invention_bayvic_logging_4
+		artifice_invention_bayvic_logging_5
+		artifice_invention_bayvic_logging_6
+		artifice_invention_bayvic_logging_7
+		artifice_invention_bayvic_logging_8
+		artifice_invention_bayvic_logging_9
+
 		#Missions Misc
 		artifice_invention_vg_musket_precursor_edition #30
 		artifice_invention_spirit_proof_exoskeleton #Arawekelin 10

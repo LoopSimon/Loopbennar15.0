@@ -74,6 +74,9 @@ has_active_all_economic_tier_1_inventions = {
 	has_estate_privilege = artifice_invention_market_mender
 	has_estate_privilege = artifice_invention_plane_of_water_teleporter
 	has_estate_privilege = artifice_invention_self_cleaning_parchment
+	has_estate_privilege = artifice_invention_bayvic_logging_1
+	has_estate_privilege = artifice_invention_bayvic_logging_2
+	has_estate_privilege = artifice_invention_bayvic_logging_3
 }
 
 has_active_all_military_tier_1_inventions = {
@@ -119,6 +122,9 @@ has_active_all_economic_tier_2_inventions = {
 	has_estate_privilege = artifice_invention_artificial_egg_surrogates
 	has_estate_privilege = artifice_invention_subterrenes
 	has_estate_privilege = artifice_invention_advanced_silk_production
+	has_estate_privilege = artifice_invention_bayvic_logging_4
+	has_estate_privilege = artifice_invention_bayvic_logging_5
+	has_estate_privilege = artifice_invention_bayvic_logging_6
 }
 
 has_active_all_military_tier_2_inventions = {
@@ -170,6 +176,9 @@ has_active_all_economic_tier_3_inventions = {
 	has_estate_privilege = artifice_invention_artifice_powered_magnate_factories
 	has_estate_privilege = artifice_invention_prefabricated_city_constructors
 	has_estate_privilege = artifice_invention_t_wave_transceivers
+	has_estate_privilege = artifice_invention_bayvic_logging_7
+	has_estate_privilege = artifice_invention_bayvic_logging_8
+	has_estate_privilege = artifice_invention_bayvic_logging_9
 }
 
 has_active_all_military_tier_3_inventions = {
@@ -417,6 +426,15 @@ num_artifice_inventions_discovered = {
 		has_country_flag = unlocked_artifice_invention_iochand_merc_2
 		has_country_flag = unlocked_artifice_invention_iochand_merc_3
 		has_country_flag = unlocked_artifice_invention_advanced_silk_production
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_1
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_2
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_3
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_4
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_5
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_6
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_7
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_8
+		has_country_flag = unlocked_artifice_invention_bayvic_logging_9
 		has_country_flag = unlocked_artifice_invention_spirit_proof_exoskeleton
 		has_country_flag = asra_model_golem_unlocked
 		has_country_flag = unlocked_artifice_invention_honsai_reinforced_cannons
@@ -704,6 +722,9 @@ artifice_invention_is_unique_tab_large_qualifier = {
 		#Iochand
 		tag = A80
 		was_tag = A80
+		#Bayvic/Bayvek
+		tag = Z28
+		was_tag = Z28
 	}
 }
 
@@ -848,6 +869,9 @@ artifice_has_unique_invention = {
 		#Iochand
 		tag = A80
 		was_tag = A80
+		#Bayvic/Bayvek
+		tag = Z28
+		was_tag = Z28
 	}
 }
 

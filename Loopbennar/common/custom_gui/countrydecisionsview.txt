@@ -8524,6 +8524,7 @@ custom_button = {
 			has_country_flag = unlocked_artifice_invention_fertility_potion
 			has_country_flag = unlocked_artifice_invention_rainblow
 			has_country_flag = unlocked_artifice_invention_iochand_merc_1
+			has_country_flag = unlocked_artifice_invention_bayvic_logging_1
 		}
 		# OR = {
 		# 	tag = Y20
@@ -8541,6 +8542,7 @@ custom_button = {
 					has_country_flag = unlocked_artifice_invention_fertility_potion
 					has_country_flag = unlocked_artifice_invention_rainblow
 					has_country_flag = unlocked_artifice_invention_iochand_merc_1
+					has_country_flag = unlocked_artifice_invention_bayvic_logging_1
 				}
 			}
 		}
@@ -8555,6 +8557,7 @@ custom_button = {
 					has_estate_privilege = artifice_invention_varaine_fertility_potions
 					has_estate_privilege = artifice_invention_allclan_rainblow
 					has_estate_privilege = artifice_invention_iochand_merc_1
+					has_estate_privilege = artifice_invention_bayvic_logging_1
 				}
 			}
 			OR = {
@@ -8563,6 +8566,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_fertility_potion
 				has_country_flag = unlocked_artifice_invention_rainblow
 				has_country_flag = unlocked_artifice_invention_iochand_merc_1
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_1
 			}
 		}
 	}
@@ -8575,6 +8579,7 @@ custom_button = {
 				has_estate_privilege = artifice_invention_varaine_fertility_potions
 				has_estate_privilege = artifice_invention_allclan_rainblow
 				has_estate_privilege = artifice_invention_iochand_merc_1
+				has_estate_privilege = artifice_invention_bayvic_logging_1
 			}
 		}
 	}
@@ -8586,6 +8591,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_fertility_potion
 				has_country_flag = unlocked_artifice_invention_rainblow
 				has_country_flag = unlocked_artifice_invention_iochand_merc_1
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_1
 			}
 		}
 	}
@@ -8758,6 +8764,38 @@ custom_button = {
 				remove_estate_privilege = artifice_invention_iochand_merc_1
 			}
 		}
+		else_if = {
+			limit = {
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_1
+			}
+			if = {
+				limit = {
+					artifice_can_select_invention_10 = yes
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_1
+					}
+				}
+				set_estate_privilege = artifice_invention_bayvic_logging_1
+			}
+			else_if = {
+				limit = {
+					artifice_can_select_invention_10 = no
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_1
+					}
+				}
+				custom_tooltip = artifice_cannot_afford_invention
+				tooltip = {
+					set_estate_privilege = artifice_invention_bayvic_logging_1
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate_privilege = artifice_invention_bayvic_logging_1
+				}
+				remove_estate_privilege = artifice_invention_bayvic_logging_1
+			}
+		}
 	}
 }
 
@@ -8772,6 +8810,7 @@ custom_button = {
 			has_country_flag = unlocked_artifice_invention_stealth_gob
 			has_country_flag = unlocked_artifice_invention_demon_powered_flame_rigs
 			has_country_flag = unlocked_artifice_invention_iochand_merc_2
+			has_country_flag = unlocked_artifice_invention_bayvic_logging_2
 		}
 	}
 	frame = {
@@ -8784,6 +8823,7 @@ custom_button = {
 					has_country_flag = unlocked_artifice_invention_stealth_gob
 					has_country_flag = unlocked_artifice_invention_demon_powered_flame_rigs
 					has_country_flag = unlocked_artifice_invention_iochand_merc_2
+					has_country_flag = unlocked_artifice_invention_bayvic_logging_2
 				}
 			}
 		}
@@ -8798,6 +8838,7 @@ custom_button = {
 					has_estate_privilege = artifice_invention_allclan_stealth_gob
 					has_estate_privilege = artifice_invention_taychend_demon_powered_flame_rigs
 					has_estate_privilege = artifice_invention_iochand_merc_2
+					has_estate_privilege = artifice_invention_bayvic_logging_2
 				}
 			}
 			OR = {
@@ -8806,6 +8847,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_stealth_gob
 				has_country_flag = unlocked_artifice_invention_demon_powered_flame_rigs
 				has_country_flag = unlocked_artifice_invention_iochand_merc_2
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_2
 			}
 		}
 	}
@@ -8818,6 +8860,7 @@ custom_button = {
 				has_estate_privilege = artifice_invention_allclan_stealth_gob
 				has_estate_privilege = artifice_invention_taychend_demon_powered_flame_rigs
 				has_estate_privilege = artifice_invention_iochand_merc_2
+				has_estate_privilege = artifice_invention_bayvic_logging_2
 			}
 		}
 	}
@@ -8829,6 +8872,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_stealth_gob
 				has_country_flag = unlocked_artifice_invention_demon_powered_flame_rigs
 				has_country_flag = unlocked_artifice_invention_iochand_merc_2
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_2
 			}
 		}
 	}
@@ -8993,6 +9037,38 @@ custom_button = {
 				remove_estate_privilege = artifice_invention_iochand_merc_2
 			}
 		}
+		else_if = {
+			limit = {
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_2
+			}
+			if = {
+				limit = {
+					artifice_can_select_invention_10 = yes
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_2
+					}
+				}
+				set_estate_privilege = artifice_invention_bayvic_logging_2
+			}
+			else_if = {
+				limit = {
+					artifice_can_select_invention_10 = no
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_2
+					}
+				}
+				custom_tooltip = artifice_cannot_afford_invention
+				tooltip = {
+					set_estate_privilege = artifice_invention_bayvic_logging_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate_privilege = artifice_invention_bayvic_logging_2
+				}
+				remove_estate_privilege = artifice_invention_bayvic_logging_2
+			}
+		}
 	}
 }
 
@@ -9007,6 +9083,7 @@ custom_button = {
 			has_country_flag = unlocked_artifice_invention_catastrophizer
 			has_country_flag = unlocked_artifice_invention_prism_cored_war_machines
 			has_country_flag = unlocked_artifice_invention_iochand_merc_3
+			has_country_flag = unlocked_artifice_invention_bayvic_logging_3
 		}
 	}
 	frame = {
@@ -9019,6 +9096,7 @@ custom_button = {
 					has_country_flag = unlocked_artifice_invention_catastrophizer
 					has_country_flag = unlocked_artifice_invention_prism_cored_war_machines
 					has_country_flag = unlocked_artifice_invention_iochand_merc_3
+					has_country_flag = unlocked_artifice_invention_bayvic_logging_3
 				}
 			}
 		}
@@ -9033,6 +9111,7 @@ custom_button = {
 					has_estate_privilege = artifice_invention_allclan_catastrophizer
 					has_estate_privilege = artifice_invention_taychend_prism_cored_war_machines
 					has_estate_privilege = artifice_invention_iochand_merc_3
+					has_estate_privilege = artifice_invention_bayvic_logging_3
 				}
 			}
 			OR = {
@@ -9041,6 +9120,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_catastrophizer
 				has_country_flag = unlocked_artifice_invention_prism_cored_war_machines
 				has_country_flag = unlocked_artifice_invention_iochand_merc_3
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_3
 			}
 		}
 	}
@@ -9052,7 +9132,8 @@ custom_button = {
 				has_estate_privilege = artifice_invention_varaine_mana_potions
 				has_estate_privilege = artifice_invention_allclan_catastrophizer
 				has_estate_privilege = artifice_invention_taychend_prism_cored_war_machines
-				has_country_flag = unlocked_artifice_invention_iochand_merc_3
+				has_estate_privilege = unlocked_artifice_invention_iochand_merc_3
+				has_estate_privilege = artifice_invention_bayvic_logging_3
 			}
 		}
 	}
@@ -9064,6 +9145,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_catastrophizer
 				has_country_flag = unlocked_artifice_invention_prism_cored_war_machines
 				has_country_flag = unlocked_artifice_invention_iochand_merc_3
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_3
 			}
 		}
 	}
@@ -9226,6 +9308,38 @@ custom_button = {
 					has_estate_privilege = artifice_invention_iochand_merc_3
 				}
 				remove_estate_privilege = artifice_invention_iochand_merc_3
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_3
+			}
+			if = {
+				limit = {
+					artifice_can_select_invention_10 = yes
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_3
+					}
+				}
+				set_estate_privilege = artifice_invention_bayvic_logging_3
+			}
+			else_if = {
+				limit = {
+					artifice_can_select_invention_10 = no
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_3
+					}
+				}
+				custom_tooltip = artifice_cannot_afford_invention
+				tooltip = {
+					set_estate_privilege = artifice_invention_bayvic_logging_3
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate_privilege = artifice_invention_bayvic_logging_3
+				}
+				remove_estate_privilege = artifice_invention_bayvic_logging_3
 			}
 		}
 	}
@@ -9596,6 +9710,7 @@ custom_button = {
 			has_country_flag = unlocked_artifice_invention_feiten_skywriting
 			has_country_flag = unlocked_artifice_invention_strength_potion
 			has_country_flag = unlocked_artifice_invention_freezeflame
+			has_country_flag = unlocked_artifice_invention_bayvic_logging_4
 		}
 	}
 	frame = {
@@ -9606,6 +9721,7 @@ custom_button = {
 					has_country_flag = unlocked_artifice_invention_feiten_skywriting
 					has_country_flag = unlocked_artifice_invention_strength_potion
 					has_country_flag = unlocked_artifice_invention_freezeflame
+					has_country_flag = unlocked_artifice_invention_bayvic_logging_4
 				}
 			}
 		}
@@ -9618,12 +9734,14 @@ custom_button = {
 					has_estate_privilege = artifice_invention_feiten_skywriting
 					has_estate_privilege = artifice_invention_varaine_strength_potions
 					has_estate_privilege = artifice_invention_allclan_freezeflame
+					has_estate_privilege = artifice_invention_bayvic_logging_4
 				}
 			}
 			OR = {
 				has_country_flag = unlocked_artifice_invention_feiten_skywriting
 				has_country_flag = unlocked_artifice_invention_strength_potion
 				has_country_flag = unlocked_artifice_invention_freezeflame
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_4
 			}
 		}
 	}
@@ -9634,6 +9752,7 @@ custom_button = {
 				has_estate_privilege = artifice_invention_feiten_skywriting
 				has_estate_privilege = artifice_invention_varaine_strength_potions
 				has_estate_privilege = artifice_invention_allclan_freezeflame
+				has_estate_privilege = artifice_invention_bayvic_logging_4
 			}
 		}
 	}
@@ -9643,6 +9762,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_feiten_skywriting
 				has_country_flag = unlocked_artifice_invention_strength_potion
 				has_country_flag = unlocked_artifice_invention_freezeflame
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_4
 			}
 		}
 	}
@@ -9743,6 +9863,39 @@ custom_button = {
 				remove_estate_privilege = artifice_invention_allclan_freezeflame
 			}
 		}
+		else_if = {
+			limit = {
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_4
+			}
+			if = {
+				limit = {
+					artifice_can_select_invention_20 = yes
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_4
+					}
+				}
+				set_estate_privilege = artifice_invention_bayvic_logging_4
+			}
+			else_if = {
+				limit = {
+					artifice_can_select_invention_20 = no
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_4
+					}
+				}
+				custom_tooltip = artifice_cannot_afford_invention
+				tooltip = {
+					set_estate_privilege = artifice_invention_bayvic_logging_4
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate_privilege = artifice_invention_bayvic_logging_4
+				}
+				remove_estate_privilege = artifice_invention_bayvic_logging_4
+			}
+		}
+		
 	}
 }
 
@@ -9757,6 +9910,7 @@ custom_button = {
 			has_country_flag = unlocked_artifice_invention_noodle_noggin
 			has_country_flag = unlocked_artifice_invention_effelai_growth_stimulants
 			has_country_flag = unlocked_artifice_invention_advanced_silk_production
+			has_country_flag = unlocked_artifice_invention_bayvic_logging_5
 		}
 	}
 	frame = {
@@ -9769,6 +9923,7 @@ custom_button = {
 					has_country_flag = unlocked_artifice_invention_noodle_noggin
 					has_country_flag = unlocked_artifice_invention_effelai_growth_stimulants
 					has_country_flag = unlocked_artifice_invention_advanced_silk_production
+					has_country_flag = unlocked_artifice_invention_bayvic_logging_5
 				}
 			}
 		}
@@ -9783,6 +9938,7 @@ custom_button = {
 					has_estate_privilege = artifice_invention_allclan_noodle_noggin
 					has_estate_privilege = artifice_invention_taychend_effelai_growth_stimulants
 					has_estate_privilege = artifice_invention_advanced_silk_production
+					has_estate_privilege = artifice_invention_bayvic_logging_5
 				}
 			}
 			OR = {
@@ -9791,6 +9947,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_noodle_noggin
 				has_country_flag = unlocked_artifice_invention_effelai_growth_stimulants
 				has_country_flag = unlocked_artifice_invention_advanced_silk_production
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_5
 			}
 		}
 	}
@@ -9803,6 +9960,7 @@ custom_button = {
 				has_estate_privilege = artifice_invention_allclan_noodle_noggin
 				has_estate_privilege = artifice_invention_taychend_effelai_growth_stimulants
 				has_estate_privilege = artifice_invention_advanced_silk_production
+				has_estate_privilege = artifice_invention_bayvic_logging_5
 			}
 		}
 	}
@@ -9814,6 +9972,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_noodle_noggin
 				has_country_flag = unlocked_artifice_invention_effelai_growth_stimulants
 				has_country_flag = unlocked_artifice_invention_advanced_silk_production
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_5
 			}
 		}
 	}
@@ -9978,6 +10137,39 @@ custom_button = {
 				remove_estate_privilege = artifice_invention_advanced_silk_production
 			}
 		}
+		else_if = { 
+			limit = {
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_5
+			}
+			if = {
+				limit = {
+					artifice_can_select_invention_20 = yes
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_5
+					}
+				}
+				set_estate_privilege = artifice_invention_bayvic_logging_5
+			}
+			else_if = {
+				limit = {
+					artifice_can_select_invention_20 = no
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_5
+					}
+				}
+				custom_tooltip = artifice_cannot_afford_invention
+				tooltip = {
+					set_estate_privilege = artifice_invention_bayvic_logging_5
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate_privilege = artifice_invention_bayvic_logging_5
+				}
+				remove_estate_privilege = artifice_invention_bayvic_logging_5
+			}
+		}
+		
 	}
 }
 
@@ -9991,6 +10183,7 @@ custom_button = {
 			has_country_flag = unlocked_artifice_invention_fire_potion
 			has_country_flag = unlocked_artifice_invention_drill_shells
 			has_country_flag = unlocked_artifice_invention_artifice_augmented_kotakompu
+			has_country_flag = unlocked_artifice_invention_bayvic_logging_6
 		}
 	}
 	frame = {
@@ -10002,6 +10195,7 @@ custom_button = {
 					has_country_flag = unlocked_artifice_invention_fire_potion
 					has_country_flag = unlocked_artifice_invention_drill_shells
 					has_country_flag = unlocked_artifice_invention_artifice_augmented_kotakompu
+					has_country_flag = unlocked_artifice_invention_bayvic_logging_6
 				}
 			}
 		}
@@ -10015,6 +10209,7 @@ custom_button = {
 					has_estate_privilege = artifice_invention_varaine_fire_potions
 					has_estate_privilege = artifice_invention_allclan_drill_shells
 					has_estate_privilege = artifice_invention_taychend_artifice_augmented_kotakompu
+					has_estate_privilege = artifice_invention_bayvic_logging_6
 				}
 			}
 			OR = {
@@ -10022,6 +10217,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_fire_potion
 				has_country_flag = unlocked_artifice_invention_drill_shells
 				has_country_flag = unlocked_artifice_invention_artifice_augmented_kotakompu
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_6
 			}
 		}
 	}
@@ -10033,6 +10229,7 @@ custom_button = {
 				has_estate_privilege = artifice_invention_varaine_fire_potions
 				has_estate_privilege = artifice_invention_allclan_drill_shells
 				has_estate_privilege = artifice_invention_taychend_artifice_augmented_kotakompu
+				has_estate_privilege = artifice_invention_bayvic_logging_6
 			}
 		}
 	}
@@ -10043,6 +10240,7 @@ custom_button = {
 				has_country_flag = unlocked_artifice_invention_fire_potion
 				has_country_flag = unlocked_artifice_invention_drill_shells
 				has_country_flag = unlocked_artifice_invention_artifice_augmented_kotakompu
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_6
 			}
 		}
 	}
@@ -10173,6 +10371,38 @@ custom_button = {
 					has_estate_privilege = artifice_invention_taychend_artifice_augmented_kotakompu
 				}
 				remove_estate_privilege = artifice_invention_taychend_artifice_augmented_kotakompu
+			}
+		}
+		else_if = { 
+			limit = {
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_6
+			}
+			if = {
+				limit = {
+					artifice_can_select_invention_20 = yes
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_6
+					}
+				}
+				set_estate_privilege = artifice_invention_bayvic_logging_6
+			}
+			else_if = {
+				limit = {
+					artifice_can_select_invention_20 = no
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_6
+					}
+				}
+				custom_tooltip = artifice_cannot_afford_invention
+				tooltip = {
+					set_estate_privilege = artifice_invention_bayvic_logging_6
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate_privilege = artifice_invention_bayvic_logging_6
+				}
+				remove_estate_privilege = artifice_invention_bayvic_logging_6
 			}
 		}
 	}
@@ -10466,6 +10696,7 @@ custom_button = {
 		OR = {
 			has_country_flag = unlocked_artifice_intention_feiten_long_rockets
 			has_country_flag = unlocked_artifice_invention_hallucinogen
+			has_country_flag = unlocked_artifice_invention_bayvic_logging_7
 		}
 	}
 	frame = {
@@ -10475,6 +10706,7 @@ custom_button = {
 				OR = {
 					has_country_flag = unlocked_artifice_intention_feiten_long_rockets
 					has_country_flag = unlocked_artifice_invention_hallucinogen
+					has_country_flag = unlocked_artifice_invention_bayvic_logging_7
 				}
 			}
 		}
@@ -10486,11 +10718,13 @@ custom_button = {
 				OR = {
 					has_estate_privilege = artifice_invention_feiten_long_rockets
 					has_estate_privilege = artifice_invention_snotfinger_hallucinogen
+					has_estate_privilege = artifice_invention_bayvic_logging_7
 				}
 			}
 			OR = {
 				has_country_flag = unlocked_artifice_intention_feiten_long_rockets
 				has_country_flag = unlocked_artifice_invention_hallucinogen
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_7
 			}
 		}
 	}
@@ -10500,6 +10734,7 @@ custom_button = {
 			OR = {
 				has_estate_privilege = artifice_invention_feiten_long_rockets
 				has_estate_privilege = artifice_invention_snotfinger_hallucinogen
+				has_estate_privilege = artifice_invention_bayvic_logging_7
 			}
 		}
 	}
@@ -10508,6 +10743,7 @@ custom_button = {
 			OR = {
 				has_country_flag = unlocked_artifice_intention_feiten_long_rockets
 				has_country_flag = unlocked_artifice_invention_hallucinogen
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_7
 			}
 		}
 	}
@@ -10576,6 +10812,39 @@ custom_button = {
 				remove_estate_privilege = artifice_invention_snotfinger_hallucinogen
 			}
 		}
+		else_if = {
+			limit = {
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_7
+			}
+			if = {
+				limit = {
+					artifice_can_select_invention_30 = yes
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_7
+					}
+				}
+				set_estate_privilege = artifice_invention_bayvic_logging_7
+			}
+			else_if = {
+				limit = {
+					artifice_can_select_invention_30 = no
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_7
+					}
+				}
+				custom_tooltip = artifice_cannot_afford_invention
+				tooltip = {
+					set_estate_privilege = artifice_invention_bayvic_logging_7
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate_privilege = artifice_invention_bayvic_logging_7
+				}
+				remove_estate_privilege = artifice_invention_bayvic_logging_7
+			}
+		}
+		
 	}
 }
 
@@ -10587,6 +10856,7 @@ custom_button = {
 		OR = {
 			has_country_flag = unlocked_artifice_intention_feiten_lightning_amplifier
 			has_country_flag = unlocked_artifice_invention_drakodil
+			has_country_flag = unlocked_artifice_invention_bayvic_logging_8
 		}
 	}
 	frame = {
@@ -10596,6 +10866,7 @@ custom_button = {
 				OR = {
 					has_country_flag = unlocked_artifice_intention_feiten_lightning_amplifier
 					has_country_flag = unlocked_artifice_invention_drakodil
+					has_country_flag = unlocked_artifice_invention_bayvic_logging_8
 				}
 			}
 		}
@@ -10607,11 +10878,13 @@ custom_button = {
 				OR = {
 					has_estate_privilege = artifice_invention_feiten_lightning_amplifier
 					has_estate_privilege = artifice_invention_snotfinger_drakodil
+					has_estate_privilege = artifice_invention_bayvic_logging_8
 				}
 			}
 			OR = {
 				has_country_flag = unlocked_artifice_intention_feiten_lightning_amplifier
 				has_country_flag = unlocked_artifice_invention_drakodil
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_8
 			}
 		}
 	}
@@ -10621,6 +10894,7 @@ custom_button = {
 			OR = {
 				has_estate_privilege = artifice_invention_feiten_lightning_amplifier
 				has_estate_privilege = artifice_invention_snotfinger_drakodil
+				has_estate_privilege = artifice_invention_bayvic_logging_8
 			}
 		}
 	}
@@ -10629,6 +10903,7 @@ custom_button = {
 			OR = {
 				has_country_flag = unlocked_artifice_intention_feiten_lightning_amplifier
 				has_country_flag = unlocked_artifice_invention_drakodil
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_8
 			}
 		}
 	}
@@ -10697,6 +10972,38 @@ custom_button = {
 				remove_estate_privilege = artifice_invention_snotfinger_drakodil
 			}
 		}
+		else_if = {
+			limit = {
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_8
+			}
+			if = {
+				limit = {
+					artifice_can_select_invention_30 = yes
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_8
+					}
+				}
+				set_estate_privilege = artifice_invention_bayvic_logging_8
+			}
+			else_if = {
+				limit = {
+					artifice_can_select_invention_30 = no
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_8
+					}
+				}
+				custom_tooltip = artifice_cannot_afford_invention
+				tooltip = {
+					set_estate_privilege = artifice_invention_bayvic_logging_8
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate_privilege = artifice_invention_bayvic_logging_8
+				}
+				remove_estate_privilege = artifice_invention_bayvic_logging_8
+			}
+		}
 	}
 }
 
@@ -10708,6 +11015,7 @@ custom_button = {
 		OR = {
 			has_country_flag = unlocked_artifice_intention_feiten_steel_rudders
 			has_country_flag = unlocked_artifice_invention_calmant
+			has_country_flag = unlocked_artifice_invention_bayvic_logging_9
 		}
 	}
 	frame = {
@@ -10717,6 +11025,7 @@ custom_button = {
 				OR = {
 					has_country_flag = unlocked_artifice_intention_feiten_steel_rudders
 					has_country_flag = unlocked_artifice_invention_calmant
+					has_country_flag = unlocked_artifice_invention_bayvic_logging_9
 				}
 			}
 		}
@@ -10728,11 +11037,13 @@ custom_button = {
 				OR = {
 					has_estate_privilege = artifice_invention_feiten_steel_rudders
 					has_estate_privilege = artifice_invention_snotfinger_calmant
+					has_estate_privilege = artifice_invention_bayvic_logging_9
 				}
 			}
 			OR = {
 				has_country_flag = unlocked_artifice_intention_feiten_steel_rudders
 				has_country_flag = unlocked_artifice_invention_calmant
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_9
 			}
 		}
 	}
@@ -10742,6 +11053,7 @@ custom_button = {
 			OR = {
 				has_estate_privilege = artifice_invention_feiten_steel_rudders
 				has_estate_privilege = artifice_invention_snotfinger_calmant
+				has_estate_privilege = artifice_invention_bayvic_logging_9
 			}
 		}
 	}
@@ -10750,6 +11062,7 @@ custom_button = {
 			OR = {
 				has_country_flag = unlocked_artifice_intention_feiten_steel_rudders
 				has_country_flag = unlocked_artifice_invention_calmant
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_9
 			}
 		}
 	}
@@ -10816,6 +11129,38 @@ custom_button = {
 					has_estate_privilege = artifice_invention_snotfinger_calmant
 				}
 				remove_estate_privilege = artifice_invention_snotfinger_calmant
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = unlocked_artifice_invention_bayvic_logging_9
+			}
+			if = {
+				limit = {
+					artifice_can_select_invention_30 = yes
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_9
+					}
+				}
+				set_estate_privilege = artifice_invention_bayvic_logging_9
+			}
+			else_if = {
+				limit = {
+					artifice_can_select_invention_30 = no
+					NOT = {
+						has_estate_privilege = artifice_invention_bayvic_logging_9
+					}
+				}
+				custom_tooltip = artifice_cannot_afford_invention
+				tooltip = {
+					set_estate_privilege = artifice_invention_bayvic_logging_9
+				}
+			}
+			else_if = {
+				limit = {
+					has_estate_privilege = artifice_invention_bayvic_logging_9
+				}
+				remove_estate_privilege = artifice_invention_bayvic_logging_9
 			}
 		}
 	}
