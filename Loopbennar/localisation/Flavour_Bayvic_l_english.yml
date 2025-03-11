@@ -100,6 +100,9 @@
 
  Z28_placeholder30_title:0 ""
  Z28_placeholder30_desc:0 ""
+ 
+ Z28_placeholder34_title:0 ""
+ Z28_placeholder34_desc:0 ""
  #Inventions
  artifice_invention_bayvic_logging_5:0 "Arctic Greenhouse Farming"
  artifice_invention_bayvic_logging_5_tt:0 "All Provinces with a §YLogging Camp§! get:\n   §YT1§!: §G+6% Local Manpower Modifier§! and\n          §R-6% Goods Produced Modifier§!\n   §YT2§!: §G+12% Local Manpower Modifier§! and\n          §R-12% Goods Produced Modifier§!\n   §YT3§!: §G+18% Local Manpower Modifier§! and\n          §R-18% Goods Produced Modifier§!\n   §YT4§!: §G+24% Local Manpower Modifier§! and\n          §R-24% Goods Produced Modifier§!\n   §YT5§!: §G+30% Local Manpower Modifier§! and\n          §R-30% Goods Produced Modifier§!"

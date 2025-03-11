@@ -80,6 +80,17 @@ bayvic_2_missions = {
 		effect = {  } 
 	}
 
+	Z28_placeholder15 = {
+		icon = mission_placeholder
+		position = 4
+		required_missions = { Z28_placeholder6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
 	Z28_placeholder7 = {
 		icon = mission_placeholder
 		position = 6
@@ -101,18 +112,7 @@ bayvic_2_missions = {
 		effect = {  } 
 	}
 
-	Z28_placeholder15 = {
-		icon = mission_placeholder
-		position = 4
-		required_missions = { Z28_placeholder6 } 
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	Z28_placeholder21 = {
+	Z28_placeholder34 = {
 		icon = mission_placeholder
 		position = 10
 		required_missions = { Z28_placeholder19 } 
