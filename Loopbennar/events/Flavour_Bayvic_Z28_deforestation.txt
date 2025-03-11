@@ -1,3 +1,5 @@
+namespace = deforestation
+
 country_event = {
 	id = deforestation.1
 	title = deforestation.1.t

@@ -1,0 +1,425 @@
+Branch 1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	placeholder1 = {
+		icon = mission_placeholder
+		position = 3
+		required_missions = { placeholder5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder10 = {
+		icon = mission_placeholder
+		position = 7
+		required_missions = {
+			placeholder1
+			placeholder7
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder19 = {
+		icon = mission_placeholder
+		position = 9
+		required_missions = { placeholder18 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder20 = {
+		icon = mission_placeholder
+		position = 10
+		required_missions = { placeholder19 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder21 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { placeholder20 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+Branch 2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	placeholder2 = {
+		icon = mission_placeholder
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder7 = {
+		icon = mission_placeholder
+		position = 6
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder11 = {
+		icon = mission_placeholder
+		position = 7
+		required_missions = { placeholder7 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder15 = {
+		icon = mission_placeholder
+		position = 4
+		required_missions = { placeholder6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder21 = {
+		icon = mission_placeholder
+		position = 10
+		required_missions = { placeholder19 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder26 = {
+		icon = mission_placeholder
+		position = 11
+		required_missions = { placeholder23 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder33 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { placeholder26 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+Branch 3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	placeholder3 = {
+		icon = mission_placeholder
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder5 = {
+		icon = mission_placeholder
+		position = 2
+		required_missions = {
+			placeholder2
+			placeholder3
+			placeholder4
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder6 = {
+		icon = mission_placeholder
+		position = 3
+		required_missions = { placeholder5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder8 = {
+		icon = mission_placeholder
+		position = 4
+		required_missions = { placeholder6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder9 = {
+		icon = mission_placeholder
+		position = 5
+		required_missions = { placeholder8 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder18 = {
+		icon = mission_placeholder
+		position = 8
+		required_missions = {
+			placeholder16
+			placeholder10
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder22 = {
+		icon = mission_placeholder
+		position = 9
+		required_missions = { placeholder18 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder23 = {
+		icon = mission_placeholder
+		position = 10
+		required_missions = {
+			placeholder22
+			placeholder24
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder25 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { placeholder23 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder32 = {
+		icon = mission_placeholder
+		position = 13
+		required_missions = {
+			placeholder31
+			placeholder33
+			placeholder21
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+Branch 4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	placeholder4 = {
+		icon = mission_placeholder
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder12 = {
+		icon = mission_placeholder
+		position = 4
+		required_missions = { placeholder6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder14 = {
+		icon = mission_placeholder
+		position = 6
+		required_missions = {
+			placeholder17
+			placeholder9
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder16 = {
+		icon = mission_placeholder
+		position = 7
+		required_missions = { placeholder14 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder24 = {
+		icon = mission_placeholder
+		position = 9
+		required_missions = { placeholder18 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder27 = {
+		icon = mission_placeholder
+		position = 11
+		required_missions = { placeholder24 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder31 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { placeholder27 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+Branch 5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	placeholder13 = {
+		icon = mission_placeholder
+		position = 3
+		required_missions = { placeholder5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder17 = {
+		icon = mission_placeholder
+		position = 5
+		required_missions = { placeholder13 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder28 = {
+		icon = mission_placeholder
+		position = 9
+		required_missions = { placeholder18 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder29 = {
+		icon = mission_placeholder
+		position = 10
+		required_missions = { placeholder28 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	placeholder30 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { placeholder29 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}

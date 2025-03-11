@@ -1,0 +1,21 @@
+namespace = bayvic
+
+country_event = {
+
+	id = bayvic.0
+	title = bayvic.0.t
+	desc = bayvic.0.d
+	picture = BANKRUPTCY_eventPicture
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = Z28
+	}
+
+	option = {
+	}
+
+}

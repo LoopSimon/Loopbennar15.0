@@ -1,15 +1,111 @@
 ﻿l_english:
+ placeholder1_title:0 ""
+ placeholder1_desc:0 ""
 
-#Inventions
+ placeholder10_title:0 ""
+ placeholder10_desc:0 ""
 
-artifice_invention_bayvic_logging_3:0 "Makeshift Chapel"
-artifice_invention_bayvic_logging_3_tt:0 "All Provinces with any §YLogging Camp§! get:\n   §G+2% Missionary Strength§!"
+ placeholder19_title:0 ""
+ placeholder19_desc:0 ""
 
-artifice_invention_bayvic_logging_5:0 "Arctic Greenhouse Farming"
-artifice_invention_bayvic_logging_5_tt:0 "All Provinces with a §YLogging Camp§! get:\n   §YT1§!: §G+6% Local Manpower Modifier§! and\n          §R-6% Goods Produced Modifier§!\n   §YT2§!: §G+12% Local Manpower Modifier§! and\n          §R-12% Goods Produced Modifier§!\n   §YT3§!: §G+18% Local Manpower Modifier§! and\n          §R-18% Goods Produced Modifier§!\n   §YT4§!: §G+24% Local Manpower Modifier§! and\n          §R-24% Goods Produced Modifier§!\n   §YT5§!: §G+30% Local Manpower Modifier§! and\n          §R-30% Goods Produced Modifier§!" 
+ placeholder20_title:0 ""
+ placeholder20_desc:0 ""
 
-artifice_invention_bayvic_logging_6:0 "Arctic Greenhouse Farming"
-artifice_invention_bayvic_logging_6_tt:0 "All Provinces with a §YLogging Camp§! and an §YArctic§! climate get:\n   §YT1§!: §G-10% Development Cost§!\n   §YT2§!: §G-20% Development Cost§!\n   §YT3§!: §G-30% Development Cost§!\n   §YT4§!: §G-40% Development Cost§!\n   §YT5§!: §G-50% Development Cost§!" 
+ placeholder21_title:0 ""
+ placeholder21_desc:0 ""
 
-artifice_invention_bayvic_logging_9:0 "The Goblin Hedgehog"
-artifice_invention_bayvic_logging_9_tt:0 "All Provinces with a §YLogging Camp§! and any §YFort§! get:\n   §YT1§!: §G+15% Local Defensiveness§!\n   §YT2§!: §G+20% Local Defensiveness§!\n   §YT3§!: §G+25% Local Defensiveness§!\n   §YT4§!: §G+30% Local Defensiveness§!\n   §YT5§!: §G+35% Local Defensiveness§! and\n         §G+1 Local Defender Dice Roll§!" 
+ placeholder2_title:0 ""
+ placeholder2_desc:0 ""
+
+ placeholder7_title:0 ""
+ placeholder7_desc:0 ""
+
+ placeholder11_title:0 ""
+ placeholder11_desc:0 ""
+
+ placeholder15_title:0 ""
+ placeholder15_desc:0 ""
+
+ placeholder21_title:0 ""
+ placeholder21_desc:0 ""
+
+ placeholder26_title:0 ""
+ placeholder26_desc:0 ""
+
+ placeholder33_title:0 ""
+ placeholder33_desc:0 ""
+
+ placeholder3_title:0 ""
+ placeholder3_desc:0 ""
+
+ placeholder5_title:0 ""
+ placeholder5_desc:0 ""
+
+ placeholder6_title:0 ""
+ placeholder6_desc:0 ""
+
+ placeholder8_title:0 ""
+ placeholder8_desc:0 ""
+
+ placeholder9_title:0 ""
+ placeholder9_desc:0 ""
+
+ placeholder18_title:0 ""
+ placeholder18_desc:0 ""
+
+ placeholder22_title:0 ""
+ placeholder22_desc:0 ""
+
+ placeholder23_title:0 ""
+ placeholder23_desc:0 ""
+
+ placeholder25_title:0 ""
+ placeholder25_desc:0 ""
+
+ placeholder32_title:0 ""
+ placeholder32_desc:0 ""
+
+ placeholder4_title:0 ""
+ placeholder4_desc:0 ""
+
+ placeholder12_title:0 ""
+ placeholder12_desc:0 ""
+
+ placeholder14_title:0 ""
+ placeholder14_desc:0 ""
+
+ placeholder16_title:0 ""
+ placeholder16_desc:0 ""
+
+ placeholder24_title:0 ""
+ placeholder24_desc:0 ""
+
+ placeholder27_title:0 ""
+ placeholder27_desc:0 ""
+
+ placeholder31_title:0 ""
+ placeholder31_desc:0 ""
+
+ placeholder13_title:0 ""
+ placeholder13_desc:0 ""
+
+ placeholder17_title:0 ""
+ placeholder17_desc:0 ""
+
+ placeholder28_title:0 ""
+ placeholder28_desc:0 ""
+
+ placeholder29_title:0 ""
+ placeholder29_desc:0 ""
+
+ placeholder30_title:0 ""
+ placeholder30_desc:0 ""
+ #Inventions
+ artifice_invention_bayvic_logging_5:0 "Arctic Greenhouse Farming"
+ artifice_invention_bayvic_logging_5_tt:0 "All Provinces with a §YLogging Camp§! get:\n   §YT1§!: §G+6% Local Manpower Modifier§! and\n          §R-6% Goods Produced Modifier§!\n   §YT2§!: §G+12% Local Manpower Modifier§! and\n          §R-12% Goods Produced Modifier§!\n   §YT3§!: §G+18% Local Manpower Modifier§! and\n          §R-18% Goods Produced Modifier§!\n   §YT4§!: §G+24% Local Manpower Modifier§! and\n          §R-24% Goods Produced Modifier§!\n   §YT5§!: §G+30% Local Manpower Modifier§! and\n          §R-30% Goods Produced Modifier§!"
+ artifice_invention_bayvic_logging_9:0 "The Goblin Hedgehog"
+ artifice_invention_bayvic_logging_9_tt:0 "All Provinces with a §YLogging Camp§! and any §YFort§! get:\n   §YT1§!: §G+15% Local Defensiveness§!\n   §YT2§!: §G+20% Local Defensiveness§!\n   §YT3§!: §G+25% Local Defensiveness§!\n   §YT4§!: §G+30% Local Defensiveness§!\n   §YT5§!: §G+35% Local Defensiveness§! and\n         §G+1 Local Defender Dice Roll§!"  
+ artifice_invention_bayvic_logging_3:0 "Makeshift Chapel"
+ artifice_invention_bayvic_logging_3_tt:0 "All Provinces with any §YLogging Camp§! get:\n   §G+2% Missionary Strength§!"
+ artifice_invention_bayvic_logging_6:0 "Arctic Greenhouse Farming"
+ artifice_invention_bayvic_logging_6_tt:0 "All Provinces with a §YLogging Camp§! and an §YArctic§! climate get:\n   §YT1§!: §G-10% Development Cost§!\n   §YT2§!: §G-20% Development Cost§!\n   §YT3§!: §G-30% Development Cost§!\n   §YT4§!: §G-40% Development Cost§!\n   §YT5§!: §G-50% Development Cost§!" 
