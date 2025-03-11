@@ -1,14 +1,14 @@
-Branch 1 = {
+bayvic_1_missions = {
 	slot = 1
 	generic = no
 	ai = yes
 	has_country_shield = yes
 	potential = { tag = Z28 } 
 
-	placeholder1 = {
+	Z28_placeholder1 = {
 		icon = mission_placeholder
 		position = 3
-		required_missions = { placeholder5 } 
+		required_missions = { Z28_placeholder5 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -16,12 +16,12 @@ Branch 1 = {
 		effect = {  } 
 	}
 
-	placeholder10 = {
+	Z28_placeholder10 = {
 		icon = mission_placeholder
 		position = 7
 		required_missions = {
-			placeholder1
-			placeholder7
+			Z28_placeholder1
+			Z28_placeholder7
 		}
 		provinces_to_highlight = {  } 
 
@@ -30,10 +30,10 @@ Branch 1 = {
 		effect = {  } 
 	}
 
-	placeholder19 = {
+	Z28_placeholder19 = {
 		icon = mission_placeholder
 		position = 9
-		required_missions = { placeholder18 } 
+		required_missions = { Z28_placeholder18 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -41,10 +41,10 @@ Branch 1 = {
 		effect = {  } 
 	}
 
-	placeholder20 = {
+	Z28_placeholder20 = {
 		icon = mission_placeholder
 		position = 10
-		required_missions = { placeholder19 } 
+		required_missions = { Z28_placeholder19 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -52,10 +52,10 @@ Branch 1 = {
 		effect = {  } 
 	}
 
-	placeholder21 = {
+	Z28_placeholder21 = {
 		icon = mission_placeholder
 		position = 12
-		required_missions = { placeholder20 } 
+		required_missions = { Z28_placeholder20 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -63,14 +63,14 @@ Branch 1 = {
 		effect = {  } 
 	}
 }
-Branch 2 = {
+bayvic_2_missions = {
 	slot = 2
 	generic = no
 	ai = yes
 	has_country_shield = yes
 	potential = { tag = Z28 } 
 
-	placeholder2 = {
+	Z28_placeholder2 = {
 		icon = mission_placeholder
 		position = 1
 		provinces_to_highlight = {  } 
@@ -80,7 +80,7 @@ Branch 2 = {
 		effect = {  } 
 	}
 
-	placeholder7 = {
+	Z28_placeholder7 = {
 		icon = mission_placeholder
 		position = 6
 		provinces_to_highlight = {  } 
@@ -90,10 +90,10 @@ Branch 2 = {
 		effect = {  } 
 	}
 
-	placeholder11 = {
+	Z28_placeholder11 = {
 		icon = mission_placeholder
 		position = 7
-		required_missions = { placeholder7 } 
+		required_missions = { Z28_placeholder7 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -101,10 +101,10 @@ Branch 2 = {
 		effect = {  } 
 	}
 
-	placeholder15 = {
+	Z28_placeholder15 = {
 		icon = mission_placeholder
 		position = 4
-		required_missions = { placeholder6 } 
+		required_missions = { Z28_placeholder6 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -112,10 +112,10 @@ Branch 2 = {
 		effect = {  } 
 	}
 
-	placeholder21 = {
+	Z28_placeholder21 = {
 		icon = mission_placeholder
 		position = 10
-		required_missions = { placeholder19 } 
+		required_missions = { Z28_placeholder19 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -123,10 +123,10 @@ Branch 2 = {
 		effect = {  } 
 	}
 
-	placeholder26 = {
+	Z28_placeholder26 = {
 		icon = mission_placeholder
 		position = 11
-		required_missions = { placeholder23 } 
+		required_missions = { Z28_placeholder23 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -134,10 +134,10 @@ Branch 2 = {
 		effect = {  } 
 	}
 
-	placeholder33 = {
+	Z28_placeholder33 = {
 		icon = mission_placeholder
 		position = 12
-		required_missions = { placeholder26 } 
+		required_missions = { Z28_placeholder26 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -145,14 +145,14 @@ Branch 2 = {
 		effect = {  } 
 	}
 }
-Branch 3 = {
+bayvic_3_missions = {
 	slot = 3
 	generic = no
 	ai = yes
 	has_country_shield = yes
 	potential = { tag = Z28 } 
 
-	placeholder3 = {
+	Z28_placeholder3 = {
 		icon = mission_placeholder
 		position = 1
 		provinces_to_highlight = {  } 
@@ -162,13 +162,13 @@ Branch 3 = {
 		effect = {  } 
 	}
 
-	placeholder5 = {
+	Z28_placeholder5 = {
 		icon = mission_placeholder
 		position = 2
 		required_missions = {
-			placeholder2
-			placeholder3
-			placeholder4
+			Z28_placeholder2
+			Z28_placeholder3
+			Z28_placeholder4
 		}
 		provinces_to_highlight = {  } 
 
@@ -177,10 +177,10 @@ Branch 3 = {
 		effect = {  } 
 	}
 
-	placeholder6 = {
+	Z28_placeholder6 = {
 		icon = mission_placeholder
 		position = 3
-		required_missions = { placeholder5 } 
+		required_missions = { Z28_placeholder5 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -188,10 +188,10 @@ Branch 3 = {
 		effect = {  } 
 	}
 
-	placeholder8 = {
+	Z28_placeholder8 = {
 		icon = mission_placeholder
 		position = 4
-		required_missions = { placeholder6 } 
+		required_missions = { Z28_placeholder6 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -199,10 +199,10 @@ Branch 3 = {
 		effect = {  } 
 	}
 
-	placeholder9 = {
+	Z28_placeholder9 = {
 		icon = mission_placeholder
 		position = 5
-		required_missions = { placeholder8 } 
+		required_missions = { Z28_placeholder8 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -210,12 +210,12 @@ Branch 3 = {
 		effect = {  } 
 	}
 
-	placeholder18 = {
+	Z28_placeholder18 = {
 		icon = mission_placeholder
 		position = 8
 		required_missions = {
-			placeholder16
-			placeholder10
+			Z28_placeholder16
+			Z28_placeholder10
 		}
 		provinces_to_highlight = {  } 
 
@@ -224,10 +224,10 @@ Branch 3 = {
 		effect = {  } 
 	}
 
-	placeholder22 = {
+	Z28_placeholder22 = {
 		icon = mission_placeholder
 		position = 9
-		required_missions = { placeholder18 } 
+		required_missions = { Z28_placeholder18 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -235,12 +235,12 @@ Branch 3 = {
 		effect = {  } 
 	}
 
-	placeholder23 = {
+	Z28_placeholder23 = {
 		icon = mission_placeholder
 		position = 10
 		required_missions = {
-			placeholder22
-			placeholder24
+			Z28_placeholder22
+			Z28_placeholder24
 		}
 		provinces_to_highlight = {  } 
 
@@ -249,10 +249,10 @@ Branch 3 = {
 		effect = {  } 
 	}
 
-	placeholder25 = {
+	Z28_placeholder25 = {
 		icon = mission_placeholder
 		position = 12
-		required_missions = { placeholder23 } 
+		required_missions = { Z28_placeholder23 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -260,13 +260,13 @@ Branch 3 = {
 		effect = {  } 
 	}
 
-	placeholder32 = {
+	Z28_placeholder32 = {
 		icon = mission_placeholder
 		position = 13
 		required_missions = {
-			placeholder31
-			placeholder33
-			placeholder21
+			Z28_placeholder31
+			Z28_placeholder33
+			Z28_placeholder21
 		}
 		provinces_to_highlight = {  } 
 
@@ -275,14 +275,14 @@ Branch 3 = {
 		effect = {  } 
 	}
 }
-Branch 4 = {
+bayvic_4_missions = {
 	slot = 4
 	generic = no
 	ai = yes
 	has_country_shield = yes
 	potential = { tag = Z28 } 
 
-	placeholder4 = {
+	Z28_placeholder4 = {
 		icon = mission_placeholder
 		position = 1
 		provinces_to_highlight = {  } 
@@ -292,10 +292,10 @@ Branch 4 = {
 		effect = {  } 
 	}
 
-	placeholder12 = {
+	Z28_placeholder12 = {
 		icon = mission_placeholder
 		position = 4
-		required_missions = { placeholder6 } 
+		required_missions = { Z28_placeholder6 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -303,12 +303,12 @@ Branch 4 = {
 		effect = {  } 
 	}
 
-	placeholder14 = {
+	Z28_placeholder14 = {
 		icon = mission_placeholder
 		position = 6
 		required_missions = {
-			placeholder17
-			placeholder9
+			Z28_placeholder17
+			Z28_placeholder9
 		}
 		provinces_to_highlight = {  } 
 
@@ -317,10 +317,10 @@ Branch 4 = {
 		effect = {  } 
 	}
 
-	placeholder16 = {
+	Z28_placeholder16 = {
 		icon = mission_placeholder
 		position = 7
-		required_missions = { placeholder14 } 
+		required_missions = { Z28_placeholder14 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -328,10 +328,10 @@ Branch 4 = {
 		effect = {  } 
 	}
 
-	placeholder24 = {
+	Z28_placeholder24 = {
 		icon = mission_placeholder
 		position = 9
-		required_missions = { placeholder18 } 
+		required_missions = { Z28_placeholder18 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -339,10 +339,10 @@ Branch 4 = {
 		effect = {  } 
 	}
 
-	placeholder27 = {
+	Z28_placeholder27 = {
 		icon = mission_placeholder
 		position = 11
-		required_missions = { placeholder24 } 
+		required_missions = { Z28_placeholder24 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -350,10 +350,10 @@ Branch 4 = {
 		effect = {  } 
 	}
 
-	placeholder31 = {
+	Z28_placeholder31 = {
 		icon = mission_placeholder
 		position = 12
-		required_missions = { placeholder27 } 
+		required_missions = { Z28_placeholder27 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -361,17 +361,17 @@ Branch 4 = {
 		effect = {  } 
 	}
 }
-Branch 5 = {
+bayvic_5_missions = {
 	slot = 5
 	generic = no
 	ai = yes
 	has_country_shield = yes
 	potential = { tag = Z28 } 
 
-	placeholder13 = {
+	Z28_placeholder13 = {
 		icon = mission_placeholder
 		position = 3
-		required_missions = { placeholder5 } 
+		required_missions = { Z28_placeholder5 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -379,10 +379,10 @@ Branch 5 = {
 		effect = {  } 
 	}
 
-	placeholder17 = {
+	Z28_placeholder17 = {
 		icon = mission_placeholder
 		position = 5
-		required_missions = { placeholder13 } 
+		required_missions = { Z28_placeholder13 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -390,10 +390,10 @@ Branch 5 = {
 		effect = {  } 
 	}
 
-	placeholder28 = {
+	Z28_placeholder28 = {
 		icon = mission_placeholder
 		position = 9
-		required_missions = { placeholder18 } 
+		required_missions = { Z28_placeholder18 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -401,10 +401,10 @@ Branch 5 = {
 		effect = {  } 
 	}
 
-	placeholder29 = {
+	Z28_placeholder29 = {
 		icon = mission_placeholder
 		position = 10
-		required_missions = { placeholder28 } 
+		required_missions = { Z28_placeholder28 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
@@ -412,10 +412,10 @@ Branch 5 = {
 		effect = {  } 
 	}
 
-	placeholder30 = {
+	Z28_placeholder30 = {
 		icon = mission_placeholder
 		position = 12
-		required_missions = { placeholder29 } 
+		required_missions = { Z28_placeholder29 } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
