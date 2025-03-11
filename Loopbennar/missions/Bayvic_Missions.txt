@@ -1,0 +1,425 @@
+bayvic_1_missions = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	Z28_placeholder1 = {
+		icon = mission_placeholder
+		position = 3
+		required_missions = { Z28_placeholder5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder10 = {
+		icon = mission_placeholder
+		position = 7
+		required_missions = {
+			Z28_placeholder1
+			Z28_placeholder7
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder19 = {
+		icon = mission_placeholder
+		position = 9
+		required_missions = { Z28_placeholder18 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder20 = {
+		icon = mission_placeholder
+		position = 10
+		required_missions = { Z28_placeholder19 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder21 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { Z28_placeholder20 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+bayvic_2_missions = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	Z28_placeholder2 = {
+		icon = mission_placeholder
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder7 = {
+		icon = mission_placeholder
+		position = 6
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder11 = {
+		icon = mission_placeholder
+		position = 7
+		required_missions = { Z28_placeholder7 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder15 = {
+		icon = mission_placeholder
+		position = 4
+		required_missions = { Z28_placeholder6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder21 = {
+		icon = mission_placeholder
+		position = 10
+		required_missions = { Z28_placeholder19 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder26 = {
+		icon = mission_placeholder
+		position = 11
+		required_missions = { Z28_placeholder23 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder33 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { Z28_placeholder26 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+bayvic_3_missions = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	Z28_placeholder3 = {
+		icon = mission_placeholder
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder5 = {
+		icon = mission_placeholder
+		position = 2
+		required_missions = {
+			Z28_placeholder2
+			Z28_placeholder3
+			Z28_placeholder4
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder6 = {
+		icon = mission_placeholder
+		position = 3
+		required_missions = { Z28_placeholder5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder8 = {
+		icon = mission_placeholder
+		position = 4
+		required_missions = { Z28_placeholder6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder9 = {
+		icon = mission_placeholder
+		position = 5
+		required_missions = { Z28_placeholder8 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder18 = {
+		icon = mission_placeholder
+		position = 8
+		required_missions = {
+			Z28_placeholder16
+			Z28_placeholder10
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder22 = {
+		icon = mission_placeholder
+		position = 9
+		required_missions = { Z28_placeholder18 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder23 = {
+		icon = mission_placeholder
+		position = 10
+		required_missions = {
+			Z28_placeholder22
+			Z28_placeholder24
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder25 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { Z28_placeholder23 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder32 = {
+		icon = mission_placeholder
+		position = 13
+		required_missions = {
+			Z28_placeholder31
+			Z28_placeholder33
+			Z28_placeholder21
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+bayvic_4_missions = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	Z28_placeholder4 = {
+		icon = mission_placeholder
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder12 = {
+		icon = mission_placeholder
+		position = 4
+		required_missions = { Z28_placeholder6 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder14 = {
+		icon = mission_placeholder
+		position = 6
+		required_missions = {
+			Z28_placeholder17
+			Z28_placeholder9
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder16 = {
+		icon = mission_placeholder
+		position = 7
+		required_missions = { Z28_placeholder14 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder24 = {
+		icon = mission_placeholder
+		position = 9
+		required_missions = { Z28_placeholder18 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder27 = {
+		icon = mission_placeholder
+		position = 11
+		required_missions = { Z28_placeholder24 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder31 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { Z28_placeholder27 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+bayvic_5_missions = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = Z28 } 
+
+	Z28_placeholder13 = {
+		icon = mission_placeholder
+		position = 3
+		required_missions = { Z28_placeholder5 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder17 = {
+		icon = mission_placeholder
+		position = 5
+		required_missions = { Z28_placeholder13 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder28 = {
+		icon = mission_placeholder
+		position = 9
+		required_missions = { Z28_placeholder18 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder29 = {
+		icon = mission_placeholder
+		position = 10
+		required_missions = { Z28_placeholder28 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	Z28_placeholder30 = {
+		icon = mission_placeholder
+		position = 12
+		required_missions = { Z28_placeholder29 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
