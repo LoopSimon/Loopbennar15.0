@@ -1,105 +1,105 @@
 ﻿l_english:
- placeholder1_title:0 ""
- placeholder1_desc:0 ""
+ Z28_placeholder1_title:0 ""
+ Z28_placeholder1_desc:0 ""
 
- placeholder10_title:0 ""
- placeholder10_desc:0 ""
+ Z28_placeholder10_title:0 ""
+ Z28_placeholder10_desc:0 ""
 
- placeholder19_title:0 ""
- placeholder19_desc:0 ""
+ Z28_placeholder19_title:0 ""
+ Z28_placeholder19_desc:0 ""
 
- placeholder20_title:0 ""
- placeholder20_desc:0 ""
+ Z28_placeholder20_title:0 ""
+ Z28_placeholder20_desc:0 ""
 
- placeholder21_title:0 ""
- placeholder21_desc:0 ""
+ Z28_placeholder21_title:0 ""
+ Z28_placeholder21_desc:0 ""
 
- placeholder2_title:0 ""
- placeholder2_desc:0 ""
+ Z28_placeholder2_title:0 ""
+ Z28_placeholder2_desc:0 ""
 
- placeholder7_title:0 ""
- placeholder7_desc:0 ""
+ Z28_placeholder7_title:0 ""
+ Z28_placeholder7_desc:0 ""
 
- placeholder11_title:0 ""
- placeholder11_desc:0 ""
+ Z28_placeholder11_title:0 ""
+ Z28_placeholder11_desc:0 ""
 
- placeholder15_title:0 ""
- placeholder15_desc:0 ""
+ Z28_placeholder15_title:0 ""
+ Z28_placeholder15_desc:0 ""
 
- placeholder21_title:0 ""
- placeholder21_desc:0 ""
+ Z28_placeholder21_title:0 ""
+ Z28_placeholder21_desc:0 ""
 
- placeholder26_title:0 ""
- placeholder26_desc:0 ""
+ Z28_placeholder26_title:0 ""
+ Z28_placeholder26_desc:0 ""
 
- placeholder33_title:0 ""
- placeholder33_desc:0 ""
+ Z28_placeholder33_title:0 ""
+ Z28_placeholder33_desc:0 ""
 
- placeholder3_title:0 ""
- placeholder3_desc:0 ""
+ Z28_placeholder3_title:0 ""
+ Z28_placeholder3_desc:0 ""
 
- placeholder5_title:0 ""
- placeholder5_desc:0 ""
+ Z28_placeholder5_title:0 ""
+ Z28_placeholder5_desc:0 ""
 
- placeholder6_title:0 ""
- placeholder6_desc:0 ""
+ Z28_placeholder6_title:0 ""
+ Z28_placeholder6_desc:0 ""
 
- placeholder8_title:0 ""
- placeholder8_desc:0 ""
+ Z28_placeholder8_title:0 ""
+ Z28_placeholder8_desc:0 ""
 
- placeholder9_title:0 ""
- placeholder9_desc:0 ""
+ Z28_placeholder9_title:0 ""
+ Z28_placeholder9_desc:0 ""
 
- placeholder18_title:0 ""
- placeholder18_desc:0 ""
+ Z28_placeholder18_title:0 ""
+ Z28_placeholder18_desc:0 ""
 
- placeholder22_title:0 ""
- placeholder22_desc:0 ""
+ Z28_placeholder22_title:0 ""
+ Z28_placeholder22_desc:0 ""
 
- placeholder23_title:0 ""
- placeholder23_desc:0 ""
+ Z28_placeholder23_title:0 ""
+ Z28_placeholder23_desc:0 ""
 
- placeholder25_title:0 ""
- placeholder25_desc:0 ""
+ Z28_placeholder25_title:0 ""
+ Z28_placeholder25_desc:0 ""
 
- placeholder32_title:0 ""
- placeholder32_desc:0 ""
+ Z28_placeholder32_title:0 ""
+ Z28_placeholder32_desc:0 ""
 
- placeholder4_title:0 ""
- placeholder4_desc:0 ""
+ Z28_placeholder4_title:0 ""
+ Z28_placeholder4_desc:0 ""
 
- placeholder12_title:0 ""
- placeholder12_desc:0 ""
+ Z28_placeholder12_title:0 ""
+ Z28_placeholder12_desc:0 ""
 
- placeholder14_title:0 ""
- placeholder14_desc:0 ""
+ Z28_placeholder14_title:0 ""
+ Z28_placeholder14_desc:0 ""
 
- placeholder16_title:0 ""
- placeholder16_desc:0 ""
+ Z28_placeholder16_title:0 ""
+ Z28_placeholder16_desc:0 ""
 
- placeholder24_title:0 ""
- placeholder24_desc:0 ""
+ Z28_placeholder24_title:0 ""
+ Z28_placeholder24_desc:0 ""
 
- placeholder27_title:0 ""
- placeholder27_desc:0 ""
+ Z28_placeholder27_title:0 ""
+ Z28_placeholder27_desc:0 ""
 
- placeholder31_title:0 ""
- placeholder31_desc:0 ""
+ Z28_placeholder31_title:0 ""
+ Z28_placeholder31_desc:0 ""
 
- placeholder13_title:0 ""
- placeholder13_desc:0 ""
+ Z28_placeholder13_title:0 ""
+ Z28_placeholder13_desc:0 ""
 
- placeholder17_title:0 ""
- placeholder17_desc:0 ""
+ Z28_placeholder17_title:0 ""
+ Z28_placeholder17_desc:0 ""
 
- placeholder28_title:0 ""
- placeholder28_desc:0 ""
+ Z28_placeholder28_title:0 ""
+ Z28_placeholder28_desc:0 ""
 
- placeholder29_title:0 ""
- placeholder29_desc:0 ""
+ Z28_placeholder29_title:0 ""
+ Z28_placeholder29_desc:0 ""
 
- placeholder30_title:0 ""
- placeholder30_desc:0 ""
+ Z28_placeholder30_title:0 ""
+ Z28_placeholder30_desc:0 ""
  #Inventions
  artifice_invention_bayvic_logging_5:0 "Arctic Greenhouse Farming"
  artifice_invention_bayvic_logging_5_tt:0 "All Provinces with a §YLogging Camp§! get:\n   §YT1§!: §G+6% Local Manpower Modifier§! and\n          §R-6% Goods Produced Modifier§!\n   §YT2§!: §G+12% Local Manpower Modifier§! and\n          §R-12% Goods Produced Modifier§!\n   §YT3§!: §G+18% Local Manpower Modifier§! and\n          §R-18% Goods Produced Modifier§!\n   §YT4§!: §G+24% Local Manpower Modifier§! and\n          §R-24% Goods Produced Modifier§!\n   §YT5§!: §G+30% Local Manpower Modifier§! and\n          §R-30% Goods Produced Modifier§!"
